@@ -23,7 +23,8 @@ workflows:
 # Define the jobs we want to run for this project
 jobs:
   build:
-    working_directory: ~/SimpleApplication
+    working_directory: ~/Users/nicholasogrady/Desktop/devops-ca-nick/SimpleApplication 
+    
     docker:
       - image: circleci/node:latest
     steps:
